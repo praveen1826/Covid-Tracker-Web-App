@@ -19,9 +19,7 @@ function Cases() {
                 <Nav.Link href="https://dashboard.cowin.gov.in/">
                   Vaccinations
                 </Nav.Link>
-                <Nav.Link href="https://covidwebtracker.herokuapp.com/">
-                  Analytics
-                </Nav.Link>
+                <Nav.Link href="http://localhost:3000">Analytics</Nav.Link>
                 <Nav.Link href="/about">About</Nav.Link>
               </Nav>
             </Navbar.Collapse>

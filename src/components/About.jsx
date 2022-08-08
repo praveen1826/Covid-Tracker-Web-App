@@ -15,15 +15,11 @@ function About() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="https://covidwebtracker.herokuapp.com/">
-                Home
-              </Nav.Link>
+              <Nav.Link href="http://localhost:3000">Home</Nav.Link>
               <Nav.Link href="https://dashboard.cowin.gov.in/">
                 Vaccinations
               </Nav.Link>
-              <Nav.Link href="https://covidwebtracker.herokuapp.com/">
-                Analytics
-              </Nav.Link>
+              <Nav.Link href="http://localhost:3000">Analytics</Nav.Link>
               <Nav.Link href="/about">About</Nav.Link>
             </Nav>
           </Navbar.Collapse>
