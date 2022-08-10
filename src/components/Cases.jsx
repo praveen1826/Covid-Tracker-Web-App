@@ -15,12 +15,14 @@ function Cases() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
+                <Nav.Link href="http://www.praveenreddy.tech">Home</Nav.Link>
                 <Nav.Link href="https://dashboard.cowin.gov.in/">
                   Vaccinations
                 </Nav.Link>
-                <Nav.Link href="http://localhost:3000">Analytics</Nav.Link>
-                <Nav.Link href="/about">About</Nav.Link>
+                <Nav.Link href="http://www.praveenreddy.tech">
+                  Analytics
+                </Nav.Link>
+                <Nav.Link href="/#/about">About</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

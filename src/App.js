@@ -1,14 +1,14 @@
 import Cases from "./components/Cases";
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { Route, Routes, HashRouter } from "react-router-dom";
 import About from "./components/About";
 function App() {
   return (
-    <BrowserRouter basename="/testapp">
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Cases />} />
         <Route path="/about" element={<About />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
